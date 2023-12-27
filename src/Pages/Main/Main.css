@@ -1,0 +1,147 @@
+.bannerMain{
+    margin-top: 96px;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+#Main{
+    margin-bottom: 40px;
+    margin-top: 16px;
+}
+.Title{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.mainSubTitle{
+    color: #303030;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.8;
+}
+.handphone{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.download:hover{
+    cursor: pointer;
+}
+.downloadWrapper{
+    display: flex;
+    gap: 24px;
+}
+.productShowcaseWrapper{
+    margin: 0 11vw;
+}
+#product{
+    margin-top : 56px;
+    margin-bottom : 8px;
+}
+.subTitle{
+    color : #707070;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.productCardsWrapper{
+   margin-top: 32px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.partnerWrapper{
+    margin: 0 11vw;
+    margin-top: 120px;
+}
+#partner{
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+.partnerLogoWrapper{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.promoWrapper{
+    margin: 0 11vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 162px;
+    gap: 30px;
+}
+.promoText{
+    width: 540px;
+}
+.promoImg{
+    width: 540px;
+    height: 400px;
+    border-radius: 16px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 38px ;
+}
+ul li::before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    margin-right: 8px;
+    font-weight: 100;
+    color: #A30926;
+}
+#promo{
+    color : #5A5A5A
+}
+#bottomList{
+    margin-bottom: 0;
+}
+.promoListItem{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 28px;
+}
+.syarat{
+    color: #5A5A5A;
+    margin-left: 32px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.promoButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 255px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #A30926;
+    color : white;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 68px;
+    margin-bottom: 129px; 
+}
+.promoButton:hover{
+    cursor: pointer;
+}
+
+  

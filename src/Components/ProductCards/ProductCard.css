@@ -1,0 +1,31 @@
+.productPic{
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+}
+.productCardWrapper{
+    width: 350px;
+}
+.productCardWrapper:hover{
+    cursor: pointer;
+}
+.placeHolder{
+    height: 24px;
+}
+.productlogo{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 24px;
+}
+.productTitleWrapper{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    display: flex;
+    gap : 16px;
+}
