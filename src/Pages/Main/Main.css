@@ -80,9 +80,7 @@
     margin-top: 162px;
     gap: 30px;
 }
-.promoText{
-    width: 540px;
-}
+
 .promoImg{
     width: 540px;
     height: 400px;
@@ -147,9 +145,8 @@ ul li::before {
     display: none;
 }
 
-/* Media query for mobile devices */
+
 @media only screen and (max-width: 767px) {
-    /* Add your mobile-specific CSS here */
     .bannerMain{
        height: 360px;
        padding-right: 0;
