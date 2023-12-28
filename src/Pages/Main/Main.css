@@ -207,7 +207,7 @@ ul li::before {
         grid-template-columns: repeat(2, 156px);
         justify-content: space-between;
         gap: 16px;
-        margin-right: 16px;
+        
     }
     #product{
         margin-top: 40px;
