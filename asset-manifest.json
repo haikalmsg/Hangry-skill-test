@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/haikalmsg.github.io/Hangry-skill-test/static/css/main.1af7a82c.css",
-    "main.js": "/haikalmsg.github.io/Hangry-skill-test/static/js/main.7a9f5763.js",
-    "static/js/787.33920deb.chunk.js": "/haikalmsg.github.io/Hangry-skill-test/static/js/787.33920deb.chunk.js",
-    "static/media/promo.jpeg": "/haikalmsg.github.io/Hangry-skill-test/static/media/promo.3ff160143b16d2e36dd4.jpeg",
-    "static/media/SanGyu.jpeg": "/haikalmsg.github.io/Hangry-skill-test/static/media/SanGyu.c2626d4d134ef8351a8f.jpeg",
-    "static/media/handphone.png": "/haikalmsg.github.io/Hangry-skill-test/static/media/handphone.e1327e57665052f251e8.png",
-    "static/media/AyamKoplo.jpeg": "/haikalmsg.github.io/Hangry-skill-test/static/media/AyamKoplo.f1dabbfbc2169741c2cb.jpeg",
-    "static/media/BudeSari.jpeg": "/haikalmsg.github.io/Hangry-skill-test/static/media/BudeSari.635305d6799a8ad8ec31.jpeg",
-    "static/media/IphoneMobile.png": "/haikalmsg.github.io/Hangry-skill-test/static/media/IphoneMobile.5dab277dc1dd5ce3bb34.png",
-    "static/media/KopiDariPada.jpeg": "/haikalmsg.github.io/Hangry-skill-test/static/media/KopiDariPada.7e761cb6bb6e4b452799.jpeg",
-    "static/media/Logo.svg": "/haikalmsg.github.io/Hangry-skill-test/static/media/Logo.6f48b605aa2cacbf1624786c1f9ab4e3.svg",
-    "static/media/appstore.svg": "/haikalmsg.github.io/Hangry-skill-test/static/media/appstore.e2d4c0c059a5a3e39266711e0b294315.svg",
-    "static/media/Gofood.svg": "/haikalmsg.github.io/Hangry-skill-test/static/media/Gofood.3a0c32bfc6b36822220fc662a3f878b4.svg",
-    "static/media/playstore.svg": "/haikalmsg.github.io/Hangry-skill-test/static/media/playstore.a94fcf2598debf259598a27d68f6cfdd.svg",
-    "static/media/logo.svg": "/haikalmsg.github.io/Hangry-skill-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/haikalmsg.github.io/Hangry-skill-test/index.html",
-    "static/media/arrow-right.svg": "/haikalmsg.github.io/Hangry-skill-test/static/media/arrow-right.84d1f57ffeb8346dcc96574f281001ea.svg",
-    "main.1af7a82c.css.map": "/haikalmsg.github.io/Hangry-skill-test/static/css/main.1af7a82c.css.map",
-    "main.7a9f5763.js.map": "/haikalmsg.github.io/Hangry-skill-test/static/js/main.7a9f5763.js.map",
-    "787.33920deb.chunk.js.map": "/haikalmsg.github.io/Hangry-skill-test/static/js/787.33920deb.chunk.js.map"
+    "main.css": "/Hangry-skill-test/static/css/main.1af7a82c.css",
+    "main.js": "/Hangry-skill-test/static/js/main.335c353d.js",
+    "static/js/787.33920deb.chunk.js": "/Hangry-skill-test/static/js/787.33920deb.chunk.js",
+    "static/media/promo.jpeg": "/Hangry-skill-test/static/media/promo.3ff160143b16d2e36dd4.jpeg",
+    "static/media/SanGyu.jpeg": "/Hangry-skill-test/static/media/SanGyu.c2626d4d134ef8351a8f.jpeg",
+    "static/media/handphone.png": "/Hangry-skill-test/static/media/handphone.e1327e57665052f251e8.png",
+    "static/media/AyamKoplo.jpeg": "/Hangry-skill-test/static/media/AyamKoplo.f1dabbfbc2169741c2cb.jpeg",
+    "static/media/BudeSari.jpeg": "/Hangry-skill-test/static/media/BudeSari.635305d6799a8ad8ec31.jpeg",
+    "static/media/IphoneMobile.png": "/Hangry-skill-test/static/media/IphoneMobile.5dab277dc1dd5ce3bb34.png",
+    "static/media/KopiDariPada.jpeg": "/Hangry-skill-test/static/media/KopiDariPada.7e761cb6bb6e4b452799.jpeg",
+    "static/media/Logo.svg": "/Hangry-skill-test/static/media/Logo.6f48b605aa2cacbf1624786c1f9ab4e3.svg",
+    "static/media/appstore.svg": "/Hangry-skill-test/static/media/appstore.e2d4c0c059a5a3e39266711e0b294315.svg",
+    "static/media/Gofood.svg": "/Hangry-skill-test/static/media/Gofood.3a0c32bfc6b36822220fc662a3f878b4.svg",
+    "static/media/playstore.svg": "/Hangry-skill-test/static/media/playstore.a94fcf2598debf259598a27d68f6cfdd.svg",
+    "static/media/logo.svg": "/Hangry-skill-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Hangry-skill-test/index.html",
+    "static/media/arrow-right.svg": "/Hangry-skill-test/static/media/arrow-right.84d1f57ffeb8346dcc96574f281001ea.svg",
+    "main.1af7a82c.css.map": "/Hangry-skill-test/static/css/main.1af7a82c.css.map",
+    "main.335c353d.js.map": "/Hangry-skill-test/static/js/main.335c353d.js.map",
+    "787.33920deb.chunk.js.map": "/Hangry-skill-test/static/js/787.33920deb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1af7a82c.css",
-    "static/js/main.7a9f5763.js"
+    "static/js/main.335c353d.js"
   ]
 }
