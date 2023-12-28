@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import './Main.css';
 import handphone from '../../Assets/Main/Banner/handphone.png';
 import playstore from '../../Assets/Main/Banner/playstore.svg';
@@ -10,23 +11,46 @@ import p2 from "../../Assets/Main/Partners/GrabFood.png"
 import p3 from "../../Assets/Main/Partners/Zomato.png"
 import p4 from "../../Assets/Main/Partners/Traveloka.png"
 import promo from "../../Assets/Main/Promo/promo.jpeg"
+import mobile from "../../Assets/Main/Banner/IphoneMobile.png"
+import { DropdownContext } from "../../Context/DropdownContext";
+import Dropdown from "../../Components/Dropdown/Dropdown";
 
 
 function Main() {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const [isMobile, setIsMobile] = useState(windowWidth <= 768);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+    
+    const {isDropdownOpen} = React.useContext(DropdownContext)
+    
     return (
         <div className="mainWrapper">
-            <div className="bannerMain">
+            {isDropdownOpen && <Dropdown />}
+            <div className = {isDropdownOpen ?  "bannerMain dropOpen" : "bannerMain"}>
                 <div className="mainRight">
                     <h5 className="mainSubTitle">Kamu laper atau haus?</h5>
                     <h1 className="Title" id="Main">
-                        Tenang... ada Hangry! <br></br> yang siap mengatasi
+                        Tenang... ada {isMobile && <br></br>}Hangry! {!isMobile && <br></br>} yang {isMobile && <br></br>} siap mengatasi
                     </h1>
                     <div className="downloadWrapper">
-                        <img className="download" id="playstore" src={playstore}></img>
+                        {!isMobile && <img className="download" id="playstore" src={playstore}></img>}
                         <img className="download" id="appstore" src={appstore}></img>
                     </div>
                 </div>
-                <img className="handphone" src={handphone}></img>
+                {!isMobile && <img className="handphone" src={handphone}></img>}
+                {isMobile && <img className="handphone" src={mobile}></img>}
             </div>
             <div className="productShowcaseWrapper">
                 <h1 className="Title" id="product">
@@ -39,6 +63,7 @@ function Main() {
                     {DB.map((product) => (
                         <ProductCard data={product} id = {product.id}/>
                     ))}
+                    
                 </div>
             </div>
             <div className="partnerWrapper">

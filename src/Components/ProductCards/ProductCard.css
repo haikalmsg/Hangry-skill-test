@@ -5,15 +5,19 @@
     background-size: cover;
     background-position: center;
 }
+
 .productCardWrapper{
     width: 350px;
 }
+
 .productCardWrapper:hover{
     cursor: pointer;
 }
+
 .placeHolder{
     height: 24px;
 }
+
 .productlogo{
     background-color: white;
     width: 80px;
@@ -23,9 +27,49 @@
     background-position: center;
     margin-left: 24px;
 }
+
 .productTitleWrapper{
     margin-top: 24px;
     margin-bottom: 8px;
     display: flex;
     gap : 16px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .productCardWrapper{
+        width: 156px;
+    }
+    .productPic{
+        width: 150px;
+        height: 167px;
+    }
+    .placeHolder{
+        height: 16px;
+    }
+    .productlogo{
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+        background-size: 31px;
+        background-repeat: no-repeat;
+
+    }
+    .productTitleWrapper{
+        margin-top: 8px;
+        margin-bottom: 4px;
+        gap: 8px;
+    }
+    #prod{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .arrow{
+        width: 16px;
+    }
+    #prodSub{
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 4px;
+    }
 }

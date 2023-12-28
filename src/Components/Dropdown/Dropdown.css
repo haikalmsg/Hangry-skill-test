@@ -1,0 +1,12 @@
+.dropdownWrapper{
+    margin-top: 48px;
+    
+}
+.dropdown{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
