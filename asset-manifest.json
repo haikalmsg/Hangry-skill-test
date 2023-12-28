@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Hangry-skill-test/static/css/main.1af7a82c.css",
+    "main.css": "/Hangry-skill-test/static/css/main.ccde5430.css",
     "main.js": "/Hangry-skill-test/static/js/main.335c353d.js",
     "static/js/787.33920deb.chunk.js": "/Hangry-skill-test/static/js/787.33920deb.chunk.js",
     "static/media/promo.jpeg": "/Hangry-skill-test/static/media/promo.3ff160143b16d2e36dd4.jpeg",
@@ -17,12 +17,12 @@
     "static/media/logo.svg": "/Hangry-skill-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Hangry-skill-test/index.html",
     "static/media/arrow-right.svg": "/Hangry-skill-test/static/media/arrow-right.84d1f57ffeb8346dcc96574f281001ea.svg",
-    "main.1af7a82c.css.map": "/Hangry-skill-test/static/css/main.1af7a82c.css.map",
+    "main.ccde5430.css.map": "/Hangry-skill-test/static/css/main.ccde5430.css.map",
     "main.335c353d.js.map": "/Hangry-skill-test/static/js/main.335c353d.js.map",
     "787.33920deb.chunk.js.map": "/Hangry-skill-test/static/js/787.33920deb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1af7a82c.css",
+    "static/css/main.ccde5430.css",
     "static/js/main.335c353d.js"
   ]
 }
