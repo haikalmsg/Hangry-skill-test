@@ -2,7 +2,7 @@
   "name": "hangry-skill-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "haikalms.github.io/Hangry-skill-test/",
+  "homepage": "haikalmsg.github.io/Hangry-skill-test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
